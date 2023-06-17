@@ -1,0 +1,20 @@
+
+
+:root {
+    --Primary: #9356DC;
+    --Secondaru: #FF79DA;
+    --Tertiary: #99E2D0;
+    --main-bg-color: #F2F2F2;
+}
+
+* {
+    font-family: "Shrikhand", "Roboto" ;
+}
+
+@media (max-width: 600px) {
+    
+}
+
+.LogoWrapper {
+    width: 100%;
+}
