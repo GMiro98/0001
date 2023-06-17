@@ -13,8 +13,9 @@ h1 {
     font-family: 'Shrikhand';
 }
 
-@media (max-width: 600px) {}
 
 .LogoWrapper {
     width: 100%;
 }
+
+@media (max-width: 600px) {}
