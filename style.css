@@ -36,6 +36,11 @@ header {
     background-color: #9B3636;
 }
 
+.fa-location-dot {
+    padding-right: 12px;
+}
+
+
 .Discovery {
     height: 287px;
     width: 375px;
