@@ -63,7 +63,10 @@ header {
 
 .button { border-radius: 2em;
     border: 1px solid grey;
-
+    box-sizing: border-box;
+    height: fit-content;
+    width: max-content;
+    padding: 12px;
 
 }
 
