@@ -74,11 +74,16 @@ header {
 
 .mainNav h4 {
 
-    margin-left: 140px
+}
+
+.flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .Logo {
-    width: 375px;
+    width: 100%;
     height: 64px;
     margin-top: 0.6em;
     background-color: #9B3636;
