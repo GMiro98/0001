@@ -62,11 +62,12 @@ header {
 }
 
 .button { border-radius: 2em;
-    border: 1px solid grey;
+    border: 1px solid transparent;
     box-sizing: border-box;
     height: fit-content;
     width: max-content;
     padding: 12px;
+    background-color: #9356DC;
 
 }
 
@@ -86,7 +87,7 @@ header {
 .buttons { width: 32px;
     height: 32px;
 border-radius: 50%;
-color: #0BD013;}
+background-color: #0BD013;}
 
 .Restaurants {
     height: 1227px;
