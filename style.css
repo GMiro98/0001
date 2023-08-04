@@ -28,8 +28,10 @@ header {
 
 }
 
-.mainNav h4 { font-family: 'Roboto', sans-serif;
-    font-weight: 500;}
+.mainNav h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
 
 .flexCenter {
     display: flex;
@@ -55,13 +57,14 @@ header {
     background-color: #0BD013;
 }
 
-.Discovery h1 { font-family:'Roboto', sans-serif;
-} 
-
-.Discovery h4 { font-family:'Roboto', sans-serif;
+.Discovery h1,
+h4 {
+    font-family: 'Roboto', sans-serif;
 }
 
-.button { border-radius: 2em;
+
+.button {
+    border-radius: 2em;
     border: 1px solid transparent;
     box-sizing: border-box;
     height: fit-content;
@@ -77,6 +80,7 @@ header {
     align-items: center;
     flex-direction: column;
 }
+
 .Steps {
     height: 441px;
     width: 375px;
@@ -84,10 +88,23 @@ header {
 
 }
 
-.buttons { width: 32px;
+.Steps h1,
+h4 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.borders {
+    background-color: white;
+    border-radius: 1px;
+    border: 2px transparent
+}
+
+.buttons {
+    width: 32px;
     height: 32px;
-border-radius: 50%;
-background-color: #0BD013;}
+    border-radius: 50%;
+    background-color: #0BD013;
+}
 
 .Restaurants {
     height: 1227px;
@@ -99,11 +116,18 @@ background-color: #0BD013;}
     height: 296px;
     width: 375px;
     background-color: #DF1EFF;
-
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 
 }
 
-
+.fa-utensils {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
 
 
 
