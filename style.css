@@ -112,6 +112,28 @@ h4 {
     background-color: #3AFDCE;
 }
 
+.card {
+    width: 334px;
+    height: 250;
+    color: black;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-radius: 1.2em;
+}
+
+.card h1, h5 {
+    width: 1px;
+}
+
+.card img {
+    width: 1px;
+}
+
+.fa-heart {width: 1px;}
+
+
 .Footer {
     height: 296px;
     width: 375px;
@@ -129,14 +151,16 @@ h4 {
     flex-direction: row;
 }
 
-.list {display: flex;
+.list {
+    display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     list-style: none;
     font-size: 10px;
-    padding: 15px;}
+    padding: 15px;
+}
 
- 
+
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) and (max-width: 992px) {}
