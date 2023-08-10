@@ -118,6 +118,11 @@ h4 {
     background-color: white;
 }
 
+.fa-solid { 
+
+    font-weight: 900;
+    padding-left: 40px;
+}
 
 .steps-list {
     display: flex;
