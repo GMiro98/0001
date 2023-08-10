@@ -7,6 +7,26 @@
 
 * {
     font-family: 'Roboto', sans-serif;
+}
+
+.step-item {
+    width: 100%;
+    display: flex;
+    border-radius: 16px;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 60px;
+}
+
+.Discovery,
+.Steps,
+.Restaurants {
+    width: 96%;
+    padding: 10px 3% 10px 3%;
+
+}
+
+.cursive-font {
     font-family: 'Shrikhand', cursive;
 }
 
@@ -53,8 +73,13 @@ header {
 
 .Discovery {
     height: 287px;
-    width: 375px;
     background-color: #0BD013;
+    display: flex;
+    flex: wr;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .Discovery h1,
@@ -83,7 +108,6 @@ h4 {
 
 .Steps {
     height: 441px;
-    width: 375px;
     background-color: #FF1E1E;
 
 }
@@ -95,8 +119,13 @@ h4 {
 
 .borders {
     background-color: white;
-    border-radius: 1px;
     border: 2px transparent
+}
+
+.step-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 .buttons {
@@ -108,30 +137,52 @@ h4 {
 
 .Restaurants {
     height: 1227px;
-    width: 375px;
     background-color: #3AFDCE;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .card {
     width: 334px;
-    height: 250;
+    height: 250px;
     color: black;
     background-color: white;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    justify-content: space-between;
+    flex-direction: row;
     border-radius: 1.2em;
 }
 
-.card h1, h5 {
-    width: 1px;
+.card h5,
+.card i {
+    width: fit-content;
 }
+
+.card p {
+    width: 100%;
+}
+
+.card p,
+h5 {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+}
+
 
 .card img {
-    width: 1px;
+    width: 100%;
+    height: 70%;
+    border-radius: 19px;
 }
 
-.fa-heart {width: 1px;}
+.fa-heart {
+    display: flex;
+    justify-content: flex-end;
+}
+
 
 
 .Footer {
