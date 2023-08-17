@@ -132,6 +132,8 @@ h4 {
     background-color: white;
 }
 
+.steps-padding { padding-left: 10px;}
+
 .fa-solid { 
 
     font-weight: 900;
@@ -185,47 +187,8 @@ h4 {
     background-color: #99E2D0;
 }
 
-.new-label {
-    height: fit-content;
-    width: fit-content;
-    border: 1px #000000 solid;
-    padding: 2px;
-    /* display: flex; */
-    /* flex-wrap: wrap; */
-    /* flex-direction: row; */
-    position: relative;
-    bottom: -130px;
-    left: 15px;
-    background-color: #99E2D0;
-}
 
-.new-label {
-    height: fit-content;
-    width: fit-content;
-    border: 1px #000000 solid;
-    padding: 2px;
-    /* display: flex; */
-    /* flex-wrap: wrap; */
-    /* flex-direction: row; */
-    position: relative;
-    bottom: -130px;
-    left: 15px;
-    background-color: #99E2D0;
-}
 
-.new-label {
-    height: fit-content;
-    width: fit-content;
-    border: 1px #000000 solid;
-    padding: 2px;
-    /* display: flex; */
-    /* flex-wrap: wrap; */
-    /* flex-direction: row; */
-    position: relative;
-    bottom: -130px;
-    left: 15px;
-    background-color: #99E2D0;
-}
 
 
 .card {
