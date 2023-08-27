@@ -202,6 +202,7 @@ h4 {
 
 .logo {
     font-family: 'Shrikhand';
+    color: white;
 }
 
 
@@ -284,11 +285,22 @@ h5 {
 
 }
 
+.footer {
+    padding: 20px;
+background-color: darkslategrey;
+    
+}
+
+.footer h4 {font-weight: lighter;}
+
 .fa-utensils {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    color: white;
 }
+
+.fa-handshake {color: white;}
 
 .list {
     display: flex;
@@ -299,11 +311,6 @@ h5 {
     padding: 15px;
 }
 
-.footer {
-    padding: 20px;
-
-    
-}
 
 .list li i {
     padding: 0px;
@@ -314,7 +321,7 @@ h5 {
     flex-direction: row;
     align-items: center;
     gap: 5px;
-
+color: white;
 }
 
 
