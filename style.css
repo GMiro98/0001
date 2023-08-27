@@ -66,11 +66,14 @@ header {
     height: 287px;
     background-color: #0BD013;
     display: flex;
-    flex: wr;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+.card i {
+    cursor: pointer;
 }
 
 .Discovery h1,
@@ -126,15 +129,18 @@ h4 {
     width: 100%;
     display: flex;
     border-radius: 16px;
-    justify-content: space-between;
+    justify-content: flex-start;
+    gap: 20px;
     align-items: center;
     min-height: 60px;
     background-color: white;
 }
 
-.steps-padding { padding-left: 10px;}
+.steps-padding {
+    padding-left: 10px;
+}
 
-.fa-solid { 
+.fa-solid {
 
     font-weight: 900;
     padding-left: 40px;
@@ -167,7 +173,8 @@ h4 {
 }
 
 
-.Restaurants h1 {padding-right: 170px;
+.Restaurants h1 {
+    padding-right: 170px;
     padding-top: 40px;
     margin: 0;
     font-size: x-large;
@@ -178,17 +185,24 @@ h4 {
     width: fit-content;
     border: 1px #000000 solid;
     padding: 2px;
-    /* display: flex; */
-    /* flex-wrap: wrap; */
-    /* flex-direction: row; */
-    position: relative;
-    bottom: -130px;
-    left: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
     background-color: #99E2D0;
+    right: 0;
+    /* right: 5%; */
+    bottom: 0;
+    top: 8%;
+    left: 75%;
+    padding: 5px 20px;
 }
 
 
-
+.logo {
+    font-family: 'Shrikhand';
+}
 
 
 .card {
@@ -202,6 +216,7 @@ h4 {
     flex-direction: row;
     border-radius: 1.2em;
     overflow: hidden;
+    position: relative;
 }
 
 .card h5 {
@@ -218,7 +233,7 @@ h4 {
 
 .fa-purple {
 
-    color: #9356DC ;
+    color: #9356DC;
 }
 
 .card h5,
@@ -282,6 +297,24 @@ h5 {
     list-style: none;
     font-size: 10px;
     padding: 15px;
+}
+
+.footer {
+    padding: 20px;
+
+    
+}
+
+.list li i {
+    padding: 0px;
+}
+
+.list li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+
 }
 
 
