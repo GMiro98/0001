@@ -1,7 +1,8 @@
 .fa-arrow-left {
-    position: relative;
-    right: 20%;
-    font-size: 25px;
+    position: absolute;
+    left: 0;
+    top: 35%;
+    font-size: 18px;
 }
 
 .menu-card {
@@ -66,11 +67,23 @@
     padding: 15px;
     transform: translateX(60px);
     font-size: 20px;
+
+}
+
+body {
+    background-color: var(--main-bg-color);
+}
+
+main section {
+    background-color: var(--main-bg-color);
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
 }
 
 
 .price {
     transform: translateX(30px);
+    margin-right: 10px;
 }
 
 @keyframes slideRight {
@@ -125,25 +138,4 @@ main {
 
 .steps-item {
     font-size: small;
-}
-
-.button-size {
-    width: 170px;
-    display: flex;
-    align-items: center;
-    align-content: center;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-left: 100px;
-    margin-bottom: 60px
-}
-
-.button:hover {
-    background: rgb(244, 193, 230);
-    background: linear-gradient(283deg, rgba(244, 193, 230, 1) 0%, rgba(161, 122, 209, 1) 93%);
-}
-
-.button:active {
-    background: rgb(255, 121, 218);
-    background: var(--linear-gradient);
 }
