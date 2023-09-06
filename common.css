@@ -1,0 +1,54 @@
+:root {
+    --Primary: #9356DC;
+    --Secondaru: #FF79DA;
+    --Tertiary: #99E2D0;
+    --main-bg-color: #F2F2F2;
+    --linear-gradient: linear-gradient(137deg, rgba(255, 121, 218, 1) 0%, rgba(147, 86, 220, 1) 93%);
+
+    --shadow-var: 0px 5px 7px 0px rgba(0, 0, 0, 0.25);
+}
+
+.flex--between {
+    justify-content: space-between;
+
+}
+
+.restaurant__heading {
+    padding: 10px 25px;
+}
+
+.restaurant__heading h1 {
+    font-size: 26px;
+
+    font-family: 'Shrikhand', cursive !important;
+    width: 240px
+}
+
+.button-size {
+    min-width: 170px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 100px;
+    margin-bottom: 60px
+}
+
+.button {
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+.button:hover {
+    background: rgb(244, 193, 230);
+    background: linear-gradient(137deg, rgba(255, 121, 218, 1) 0%, rgba(147, 86, 220, 1) 93%);
+    ;
+    filter: brightness(110%);
+
+    box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.55);
+}
+
+.button:active {
+    background: rgb(255, 121, 218);
+    background: var(--linear-gradient);
+}
