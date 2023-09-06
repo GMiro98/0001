@@ -24,6 +24,16 @@
 
 }
 
+.dish-item:hover .green-tick,
+.dish-item:active .green-tick {
+    animation: 1s slideRight 1 forwards;
+}
+
+.dish-item:hover .price,
+.dish-item:active .price {
+    animation: 1s slideRight 1 forwards;
+}
+
 .green-tick {
     position: absolute;
     right: 0;
@@ -34,6 +44,21 @@
     color: white;
     background-color: green;
     padding: 10px;
+    transform: translateX(40px)
+}
+
+.price{
+    transform: translateX(40px);
+}
+
+@keyframes slideRight {
+    from {
+        transform: translateX(40px)
+    }
+
+    to {
+        transform: translateX(0);
+    }
 }
 
 .dish-item h5 {
