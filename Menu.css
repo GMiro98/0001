@@ -5,6 +5,12 @@
     font-size: 18px;
 }
 
+nav,
+main {
+    opacity: 1;
+
+}
+
 .menu-card {
 
     background-color: #F6F6F6;
@@ -43,11 +49,28 @@
     overflow: hidden;
     padding-right: 50px;
 
+
+}
+
+.fadein {
+    animation: fadeIn 5s;
 }
 
 .dish-item:hover .green-tick,
 .dish-item:active .green-tick {
     animation: 1s slideRight 1 forwards;
+}
+
+.green-tick i {
+    padding-left: 0px;
+}
+
+.dish-item:hover .green-tick i {
+    animation: 2s spin 1 forwards;
+}
+
+.dish-item:active .green-tick i {
+    animation: 2s spin 1 forwards;
 }
 
 .dish-item:hover .price,
@@ -63,6 +86,7 @@
     justify-content: center;
     align-items: center;
     color: white;
+
     background-color: #99E2D0;
     padding: 15px;
     transform: translateX(60px);
@@ -86,6 +110,62 @@ main section {
     margin-right: 10px;
 }
 
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.dish-item {
+    opacity: 0;
+}
+
+.dish-item:nth-child(1) {
+
+    animation: fadein 1s forwards;
+    animation-delay: 5s;
+}
+
+.dish-item:nth-child(1) {
+    animation: fadein 1s forwards;
+    animation-delay: 5s;
+}
+
+.dish-item:nth-child(1) {
+    animation: fadein 1s forwards;
+    animation-delay: 5s;
+}
+
+.dish-item:nth-child(2) {
+    animation: fadein 1s forwards;
+    animation-delay: 5.75s;
+}
+
+.dish-item:nth-child(3) {
+    animation: fadein 1s forwards;
+    animation-delay: 6.25s;
+}
+
+.dish-item:nth-child(4) {
+    animation: fadein 1s forwards;
+    animation-delay: 7s;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0);
+    }
+
+    from {
+        transform: rotate(-1turn);
+    }
+}
+
+
 @keyframes slideRight {
     from {
         transform: translateX(40px)
@@ -93,6 +173,25 @@ main section {
 
     to {
         transform: translateX(0);
+
+    }
+}
+
+@keyframes slide {
+    0% {
+        top: 0;
+    }
+
+    25% {
+        top: -4rem;
+    }
+
+    50% {
+        top: -8rem;
+    }
+
+    72.5% {
+        top: -12.25rem;
     }
 }
 
