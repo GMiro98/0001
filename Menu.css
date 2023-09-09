@@ -124,6 +124,7 @@ main section {
     opacity: 0;
 }
 
+
 .dish-item:nth-child(1) {
 
     animation: fadein 1s forwards;
@@ -208,7 +209,15 @@ main section {
     padding-left: 0;
     font-size: medium;
     padding-bottom: 5px;
+    white-space: nowrap;
+    width: 70px;
 }
+
+.dish-item:hover p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
 
 .hero-image {
     position: absolute;
