@@ -66,11 +66,11 @@ main {
 }
 
 .dish-item:hover .green-tick i {
-    animation: 2s spin 1 forwards;
+    animation: 600ms spin 1 forwards;
 }
 
 .dish-item:active .green-tick i {
-    animation: 2s spin 1 forwards;
+    animation: 600ms spin 1 forwards;
 }
 
 .dish-item:hover .price,
