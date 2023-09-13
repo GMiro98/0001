@@ -299,3 +299,20 @@ main {
 .steps-item i {
     color: white !important;
 }
+
+@media only screen and (min-width: 768px) {
+    section {
+        padding: 20px 200px;
+    }
+    header, .Logo{
+        margin-top: 0;
+    }
+    main section{
+        background-color: #F6F6F6;
+    }
+
+    .steps-list {
+        max-width: 400px;
+    }
+
+}
