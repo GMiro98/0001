@@ -31,6 +31,16 @@ main {
     font-size: 20px;
 }
 
+.fa-heart {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 25px;
+    padding-bottom: 30px;
+    padding-right: 15px;
+    }
+
+
+
 .courses {
     border-bottom: 4px solid #99E2D0;
     width: 50px;
@@ -39,6 +49,10 @@ main {
     padding-left: 15px;
 }
 
+
+.steps-item:hover {background-color: #F6F6F6;}
+
+.steps-item:active {background-color: #F6F6F6;}
 
 .dish-item {
     flex-wrap: wrap;
