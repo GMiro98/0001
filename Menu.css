@@ -37,7 +37,7 @@ main {
     font-size: 25px;
     padding-bottom: 30px;
     padding-right: 15px;
-    }
+}
 
 
 
@@ -49,10 +49,24 @@ main {
     padding-left: 15px;
 }
 
+.restaurant__heading {
+    position: relative;
+}
 
-.steps-item:hover {background-color: #F6F6F6;}
+.heart--pink,
+.fa-heart {
+    padding: 0px;
+    right: 20px !important;
+    bottom: 40px !important;
+}
 
-.steps-item:active {background-color: #F6F6F6;}
+.steps-item:hover {
+    background-color: #F6F6F6;
+}
+
+.steps-item:active {
+    background-color: #F6F6F6;
+}
 
 .dish-item {
     flex-wrap: wrap;
@@ -231,7 +245,7 @@ main section {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-  }
+}
 
 .hero-image {
     position: absolute;
