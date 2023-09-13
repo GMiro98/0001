@@ -109,7 +109,7 @@ h4 {
     padding: 12px;
     background-color: #9356DC;
     margin-top: 30px;
-color: white;
+    color: white;
 
 }
 
@@ -157,9 +157,38 @@ h4 {
 
 }
 
-.buttons-active {
+.steps-item:hover {
     background-color: #F5EDFF;
 }
+
+.steps-item:active {
+    background-color: #F5EDFF;
+}
+
+.steps-item:hover i {
+    color: #9356DC;
+}
+
+.steps-item:active i {
+    color: #9356DC;
+}
+
+.steps-item:active {
+    color: #9356DC;
+}
+
+.steps-item:hover {
+    color: #9356DC;
+}
+
+
+
+.steps-list i:hover {
+    color: #9356DC;
+}
+
+
+
 
 .steps-padding {
     padding-left: 10px;
@@ -171,9 +200,7 @@ h4 {
     padding-left: 40px;
 }
 
-.fa-store {
-    color: #9356DC;
-}
+
 
 .steps-list {
     display: flex;
@@ -192,6 +219,7 @@ h4 {
     bottom: -50px;
     font-size: 13px;
     color: white;
+    z-index: 1;
 }
 
 
@@ -318,6 +346,7 @@ h5 {
     display: flex;
     justify-content: flex-end;
 }
+
 
 nav,
 main {
