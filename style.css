@@ -208,6 +208,10 @@ h4 {
     gap: 10px;
 }
 
+.steps-item {
+    position: relative;
+}
+
 .buttons {
     width: 22px;
     height: 22px;
@@ -216,10 +220,14 @@ h4 {
     position: relative;
     border-style: none;
     left: -8px;
-    bottom: -50px;
+    bottom: 30%;
     font-size: 13px;
     color: white;
     z-index: 1;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
