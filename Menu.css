@@ -41,13 +41,25 @@ main {
 }
 
 
-
 .courses {
-    border-bottom: 4px solid #99E2D0;
-    width: 50px;
-    white-space: nowrap;
-    padding-top: 60px;
-    padding-left: 15px;
+    width: fit-content;
+}
+
+.menu-sections {
+    padding-left: 20px;
+
+}
+
+.steps-list {
+    margin-bottom: 40px;
+}
+
+.courses::after {
+    background-color: #99E2D0;
+    height: 4px;
+    width: 50%;
+    content: "";
+    display: block;
 }
 
 .restaurant__heading {
@@ -137,6 +149,7 @@ main section {
 .price {
     transform: translateX(30px);
     margin-right: 10px;
+    text-align: end;
 }
 
 @keyframes fadein {
@@ -275,4 +288,14 @@ main {
 
 .steps-item {
     font-size: small;
+    color: black;
+}
+
+.steps-item h5,
+.steps-item p {
+    color: black;
+}
+
+.steps-item i {
+    color: white !important;
 }
