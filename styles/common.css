@@ -8,6 +8,12 @@
     --shadow-var: 0px 5px 7px 0px rgba(0, 0, 0, 0.25);
 }
 
+body { margin-top: -8px;}
+
+.dish-item p {
+    font-size: small;
+}
+
 .flex--between {
     justify-content: space-between;
 
