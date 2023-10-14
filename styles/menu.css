@@ -249,7 +249,7 @@ main section {
 .dish-item p {
     font-weight: lighter;
     padding-left: 0;
-    font-size: medium;
+    font-size: small;
     padding-bottom: 5px;
     white-space: nowrap;
     width: 70px;
