@@ -1,9 +1,27 @@
+
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.cursive-font {
+    font-family: 'Shrikhand', cursive;
+}
+
+
 .fa-arrow-left {
     position: absolute;
     left: 0;
     top: 35%;
     font-size: 18px;
 }
+
+h3 {font-weight: 100}
+
+.bold { 
+    font-weight: 700 !important;}
 
 nav,
 main {
@@ -241,13 +259,13 @@ main section {
 .dish-item h5 {
     width: 100%;
     padding-left: 0px;
-    font-weight: bolder;
+    font-weight: 700;
     font-size: medium;
     padding-top: 10px;
 }
 
 .dish-item p {
-    font-weight: lighter;
+    font-weight: 100;
     padding-left: 0;
     font-size: small;
     padding-bottom: 5px;
