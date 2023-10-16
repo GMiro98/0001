@@ -70,7 +70,7 @@ body { margin-top: -8px;}
     opacity: 0;
 }
 
-.heart-container:active .heart--pink {
+.heart-container:hover .heart--pink {
     animation: fillUp 1s forwards 1;
     transform-origin: bottom center;
 }
